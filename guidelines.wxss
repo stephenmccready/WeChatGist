@@ -1,0 +1,51 @@
+/* WeChat Mini-Program Stylesheet containing some of the recommended guidelines */
+/* from: https://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/docs/mini-programs/design */
+
+/* Font Sizes */
+.font-light{font-size:80rpx;}
+.font-medium{font-size:40rpx;}
+.font-regular-1{font-size:36rpx;}
+.font-regular-2{font-size:34rpx;}
+.font-regular-3{font-size:28rpx;}
+.font-regular-4{font-size:26rpx;}
+.font-regular-5{font-size:22rpx;}
+
+/* Font Colors */
+.font-green{color:#09BB07;} /* Status Text Indicating Success */
+.font-semiblack{color:#353535;} /* Longer Descriptive Paragraphs that counts as Major Content.*/
+.font-lightgrey{color:#b2b2b2;} /* Timestamps and Default Values in Forms */
+.font-grey{color:#888888;} /* Secondary content */
+.font-black{color:#000000;} /* Major content and Fields in Forms */
+.font-blue{color:#567b95;} /* Links */
+.font-red{color:#e64340;} /* Status Text Indicating Errors */
+
+/* Background Colors */
+.bg-green{background-color:#09BB07;}
+.bg-semiblack{background-color:#353535;}
+.bg-lightgrey{background-color:#b2b2b2;}
+.bg-grey{background-color:#888888;}
+.bg-black{background-color:#000000;}
+.bg-blue{background-color:#567b95;}
+.bg-red{background-color:#e64340;}
+
+/* For Press and Disable states reduce transparency by 20% and 10%, respectively. */
+.press{opacity: 0.20;}
+.disable{opacity: 0.10;}
+
+/* Lists */
+.font-list{font-size:34rpx;}
+.font-list-secondary{font-size:34rpx;}
+.list-large-gap{line-height:40rpx;}
+.list-medium-gap{line-height:30rpx;}
+.list-small-gap{line-height:16rpx;}
+
+/* Forms */
+.font-form{font-size:34rpx;}
+
+/* Buttons */
+.btn{font-size:36rpx;color:#fff;}
+.btn-press{opacity: 0.60;}
+.btn-disable{opacity: 0.30;}
+
+/* Icons */
+.icon{width:200rpx;height:200rpx;}
